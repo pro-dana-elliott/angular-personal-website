@@ -1,0 +1,6 @@
+.company_name, .position_title {
+  font-weight: bold;
+}
+.company_desc {
+  font-style: italic;
+}

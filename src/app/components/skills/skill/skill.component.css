@@ -1,0 +1,9 @@
+.skill-row {
+  margin-top: 5px;
+}
+/*.skill-row.myname:nth-child(odd)  {*/
+/*    background-color: red;*/
+/*}*/
+/*.skill-row.myname:nth-child(even)  {*/
+/*    background-color: blue;*/
+/*}*/

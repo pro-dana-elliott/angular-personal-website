@@ -1,0 +1,25 @@
+<div>
+  <br>
+  <div class="row" >
+    <div class="col-md company_name">{{job.company_name}}</div>
+    <div class="col-md">{{job.company_location}}</div>
+    <div class="col-md">{{job.employment_dates}}</div>
+  </div>
+  <div class="row">
+   <div class="col-md company_desc">{{job.company_desc}}</div>
+  </div>
+  <div class="row">
+    <div class="col-md position_title">{{job.position_title}}</div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col-md">{{job.position_summary}}</div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md">Position Highlights</div>
+  </div>
+  <ul>
+    <li *ngFor="let highlight of job.position_highlights">{{highlight}}</li>
+  </ul>
+</div>

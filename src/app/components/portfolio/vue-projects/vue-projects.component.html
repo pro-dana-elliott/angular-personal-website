@@ -1,0 +1,22 @@
+<div>
+  <!--<app-project  *ngFor="let project of projects" [project]="project"></app-project>-->
+    <div class="accordion" id="IdVueProjects">
+      <div *ngFor="let project of projects; let i = index">
+        <div class="card">
+          <div class="card-header" [attr.id]="'heading-vue' + i">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" [attr.data-target]="'#collapse-vue' + i" aria-expanded="false" [attr.aria-controls]="'collapse-vue' + i">
+               {{project.title}}
+              </button>
+            </h2>
+          </div>
+
+          <div [attr.id]="'collapse-vue' + i" class="collapse" [attr.aria-labelledby]="'heading-vue' + i" data-parent="#IdVueProjects">
+            <div class="card-body">
+              <app-project  [project]="project"></app-project>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-12 text-center"><h2>{{project.title}}</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row justify-content-md-center">
+          <div class="col-md-auto"><h2 class="heading">Summary</h2></div>
+        </div>
+        <p class="my-auto">{{project.summary}}</p>
+        <br>
+        <button *ngIf="project.URL" class="btn btn-primary" (click)="OpenProject(project.URL)">Run {{project.title}}</button>
+        <br>
+      </div>
+      <div class="col-md-6">
+        <div class="row justify-content-md-center">
+          <div class="col-md-auto"><h2 class="heading">Technology</h2></div>
+        </div>
+        <ul>
+          <li *ngFor="let tech  of project.technologies">{{tech}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

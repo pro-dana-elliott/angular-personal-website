@@ -1,0 +1,21 @@
+<div>
+    <div class="accordion" id="IdAngularProjects">
+      <div *ngFor="let project of projects; let i = index">
+        <div class="card">
+          <div class="card-header" [attr.id]="'heading-angular' + i">
+            <div class="h2 mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" [attr.data-target]="'#collapse-angular' + i" aria-expanded="false" [attr.aria-controls]="'collapse-angular' + i">
+               {{project.title}}
+              </button>
+            </div>
+          </div>
+
+          <div [attr.id]="'collapse-angular' + i" class="collapse" [attr.aria-labelledby]="'heading-angular' + i" data-parent="#IdAngularProjects">
+            <div class="card-body">
+              <app-project  [project]="project"></app-project>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
