@@ -1,0 +1,13 @@
+.list-item-left {
+  text-align: left;
+  list-style-position: inside;
+  width: fit-content;
+}
+
+.list-center {
+  margin: auto auto 16px;
+  width: fit-content;
+}
+
+
+

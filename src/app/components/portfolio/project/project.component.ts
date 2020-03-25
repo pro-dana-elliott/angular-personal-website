@@ -15,7 +15,7 @@ export class ProjectComponent implements OnInit {
 
   OpenProject(URL: string) {
     if (URL) {
-      console.log('try open project');
+      // console.log('try open project');
       window.open(URL);
     }
   }

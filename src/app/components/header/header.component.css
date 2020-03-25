@@ -1,8 +1,13 @@
-.brandLogo {
+/*.brandLogo {
   background: linear-gradient(to right, #ff0000 27%, #ffd700 100%);
   width: 3rem;
   text-align: center;
   font-family: 'Parisienne', cursive;
   font-size: 1.5rem;
   border-radius: .8rem;
+} */
+
+.logo-image {
+    max-width: 418px;
+    max-height: 395px;
 }

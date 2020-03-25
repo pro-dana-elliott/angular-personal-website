@@ -8,13 +8,30 @@ import {JobModel} from './job.model';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
- jobs = [ new JobModel('Student of Web Applications',
+ jobs = [
+   new JobModel('Princeton Technology Corporation',
+   'Hudson NH',
+   'July 2019 - Present',
+   'Specializes in electronic contract manufacturing of electro-mechanical and mechanical products.',
+   'Programmer',
+   'Working with the VP of Manufacturing to implement and improve critical business reporting and processes.' +
+     ' Accomplished by implementing both integrated and standalone applications, reports and databases.',
+   ['Analyzed, Designed , and Implemented several new process improvement applications.' +
+     ' WPF,C#, XAML, SQL Pervasive Database, ADO.NET, ERP, GSS, Excel Crystal Reports',
+     'Analyzed, developed, and fixed critical business reports. Crystal Reports',
+     'Designed and implemented a multiple source company part lookup application.' +
+     ' Allows user to quickly find all relevant information for an assembly containing hundreds of components.' +
+     ' Saves hours per assembly over the manual lookup method. WPF,C#, XAML, SQL Pervasive Database, ADO.NET, Excel. ERP, GSS',
+     'Fixed their 980 Time reports so this work schedule could be implemented companywide for the employees. ' +
+     'Crystal Reports, Pervasive Database, ERP, GSS']),
+
+    new JobModel('Student of Web Applications',
    'Udemy.com & Linda.com',
-   'October 2017 - Present',
+   'October 2017 - July 2019',
    '',
    'self-study',
-   'Learning web application technologies, expanding skill set, preparing to become a freelancer, and generating all content on this site.',
-   ['Technologies include but not limited to:', 'Angular 7', 'Bootstrap 4', 'HTML 5', 'CSS3', 'JavaScript', 'etc.']),
+   'Learning web application technologies, expanding skill set and built Portfolio.',
+   ['Technologies include but not limited to:', 'Angular 8', 'Angular 7', 'Bootstrap 4', 'HTML 5', 'CSS3', 'JavaScript', 'etc.']),
 
    new  JobModel('Vision Government Solutions',
    'Hudson MA',

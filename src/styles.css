@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body::after {
+  content: "";
+	background-image: url('assets/images/computer code technology.png');
+  background-size: 1970px 700px;
+
+  background-repeat: repeat;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+	}
+
