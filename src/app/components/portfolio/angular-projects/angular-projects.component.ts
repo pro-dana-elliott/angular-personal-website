@@ -11,7 +11,7 @@ export class AngularProjectsComponent implements OnInit {
 projects = [ new ProjectModel('This Website',
                           'Showcase what I can do for you by presenting my skills, experience, and past work.',
                   ['Single Page Application.',
-                              'Angular 8 ( Site upgraded from Angular 7 to fix security issues.)',
+                              'Angular 9 ( Site upgraded from Angular 7 to fix security issues.)',
                               'Bootstrap 4',
                               'TypeScript',
                               'HTML5',

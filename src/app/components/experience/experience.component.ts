@@ -9,9 +9,9 @@ import {JobModel} from './job.model';
 })
 export class ExperienceComponent implements OnInit {
  jobs = [
-   new JobModel('Princeton Technology Corporation',
+   new JobModel('Intervala',
    'Hudson NH',
-   'July 2019 - Present',
+   'July 2019 - Nov 2020',
    'Specializes in electronic contract manufacturing of electro-mechanical and mechanical products.',
    'Programmer',
    'Working with the VP of Manufacturing to implement and improve critical business reporting and processes.' +
@@ -60,26 +60,13 @@ export class ExperienceComponent implements OnInit {
    ' Resolved issues with the company’s core financial and clerical batch processing application. ' +
    'The product consisted of a two-tiered design with a mainframe DB and desktop application using VB6, SQL.',
    ['Analyzed and developed fixes for critical software issues.',
-   'Co-wrote the company’s core financial and clerical batch processing application using VB6, SQL.',
+   'Wrote and maintained transactions written in SQL for batch processing application.',
    'Created and ran an automated retrieval of DST AWD data from Desktop for conversion testing and maintenance ' +
    'with 100% passing using VB6, SQL.',
    'Composed text report to excel conversion application allowing testers and management to work with financial data using VB6, SQL.',
    'Authored MFPII a financial publishing Quality Control application using VB6, SQL.',
    'Attended weekly department status meetings to review project prioritization.']),
-    new JobModel('Engility (formerly Dynamics Research Corporation)',
-      'Andover, MA',
-      '1998-2005',
-      'Engineering services company serving the U.S. Department of Defense.',
-      'Software Engineer',
-      'Worked with a small team with some QA staff resolving issues with the U.S. Navy’s document archive and ' +
-      'retrieval application using VB6, SQL, Access. Also worked on various logistical projects and reports using Fortran and Simul8.',
-      ['Department handled contracts for the U.S. Navy requiring a security clearance.',
-      'Resolved issues with the document archive and retrieval application allowing users to query and open documents and images of ' +
-      ' any size using VB6, SQL, Access, LeadTools.',
-      'Integrated third-party imaging tool LeadTools into application allowing images to be viewed.',
-      'Sustained document indexing application featuring auto scanning and indexing of documents using VB6, Access.',
-      'Maintained various navy repair cycle reports using Fortran.',
-      'Wrote a prototype logistics repair simulation for Navy Resources using Simul8.'])];
+    ];
 
   constructor() { }
 
